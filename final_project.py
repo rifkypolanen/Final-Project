@@ -11,7 +11,7 @@ Hi {name},
 
 Ini adalah final project dari Indonesia AI
 """
-from_address = "vansci1310@gmail.com" # Email yang digunakan untuk mengirim 
+from_address = Input('Masukkan Email Anda :') # Input email yang digunakan untuk mengirim 
 password = getpass.getpass(prompt="Masukkan Password Anda : ", stream=None) # Input nilai password 
 
 context = ssl.create_default_context()
